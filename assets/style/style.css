@@ -347,6 +347,7 @@ p {
 }
 .footer .small-text {
   font-size: 12px;
+  line-height: 30px;
 }
 .footer p {
   color: #fff;
