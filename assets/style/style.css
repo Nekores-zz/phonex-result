@@ -166,6 +166,11 @@ p {
 .personal-section .custom-personal-card .card-data {
   display: flex;
 }
+@media (min-width: 991px) {
+  .personal-section .custom-personal-card .card-data {
+    padding: 20px;
+  }
+}
 .personal-section .custom-personal-card .card-data .card-contant-data {
   text-align: start;
 }
@@ -204,6 +209,11 @@ p {
 }
 .personal-section .custom-personal-card .image {
   height: 160px !important;
+}
+@media (min-width: 991px) {
+  .personal-section .custom-personal-card .image {
+    margin-right: 40px;
+  }
 }
 @media (max-width: 767.98px) {
   .personal-section .container-fluid {

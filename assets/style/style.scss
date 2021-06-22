@@ -158,6 +158,9 @@
     }
     .card-data {
       display: flex;
+      @media (min-width: 991px) {
+        padding: 20px;
+      }
       .card-contant-data {
         text-align: start;
         .poor {
@@ -201,6 +204,9 @@
     }
     .image {
       height: 160px !important;
+      @media (min-width: 991px) {
+        margin-right: 40px;
+      }
     }
   }
   @media (max-width: 767.98px) {
