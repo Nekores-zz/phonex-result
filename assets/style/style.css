@@ -12,25 +12,21 @@ h4,
 h5,
 h6,
 p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .inverted {
   position: fixed !important;
-  -webkit-box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
   z-index: 111;
   padding: 0;
 }
-
 .inverted .col1 {
   display: none;
 }
-
 .inverted .header-title-wrapper {
   background-color: #fff !important;
 }
-
 .inverted .custom-main-btn {
   display: initial !important;
   background-color: #003E7C;
@@ -40,7 +36,6 @@ p {
   font-size: 16px;
   margin-left: 32px;
 }
-
 @media (max-width: 767.98px) {
   .inverted .col1 {
     display: initial !important;
@@ -60,12 +55,10 @@ p {
   background-color: #F0F5FB;
   height: 110px;
 }
-
 .custom-navbar .header-title-wrapper h1 {
   color: #003E7C;
   font-weight: 700;
 }
-
 .custom-navbar .header-title-wrapper .custom-main-btn {
   display: none;
 }
@@ -73,49 +66,41 @@ p {
 .results-section .card-score {
   font-size: 66px;
 }
-
 .results-section span {
   color: #edd58a;
 }
-
 .results-section .results-title {
   font-weight: 700;
-  line-height: 48px;
+  line-height: 55px;
+  font-size: 43px;
 }
-
 .results-section .results-sub-title {
   font-weight: 700;
-  line-height: 48px;
-  font-size: 34px;
+  line-height: 55px;
+  font-size: 43px;
 }
-
 .results-section .results-img {
   height: 600px;
 }
-
 .results-section .custom-btn {
   padding: 0.9rem 3rem;
   border-radius: 40px;
   margin-right: 10px;
 }
-
 .results-section .poor {
   background-color: #ed968a;
   color: #d34747;
   opacity: 0.6;
 }
-
 .results-section .good {
   background-color: #edd58a;
   color: #d3ae47;
   opacity: 0.6;
 }
-
 .results-section .great {
   background-color: #00993d;
   color: #fff;
 }
-
 .results-section .custom-main-btn {
   background-color: #003E7C;
   color: #fff;
@@ -123,7 +108,6 @@ p {
   letter-spacing: 0.2em;
   font-size: 16px;
 }
-
 @media (max-width: 767.98px) {
   .results-section .p-5 {
     padding: 1.2rem !important;
@@ -149,11 +133,9 @@ p {
 .personal-section {
   background-color: #F0F5FB;
 }
-
 .personal-section .container-fluid {
   padding: 100px !important;
 }
-
 .personal-section .feature-title {
   font-size: 36px;
   font-style: normal;
@@ -162,100 +144,67 @@ p {
   letter-spacing: 0em;
   text-align: center;
 }
-
 .personal-section .custom-personal-card {
-  -webkit-box-shadow: 9px 11px 10px 5px rgba(196, 196, 196, 0.4);
-          box-shadow: 9px 11px 10px 5px rgba(196, 196, 196, 0.4);
+  box-shadow: 9px 11px 10px 5px rgba(196, 196, 196, 0.4);
   border: 0;
   border-radius: 0;
 }
-
 .personal-section .custom-personal-card .card-title {
   font-weight: 700;
 }
-
 .personal-section .custom-personal-card .card-text {
   font-size: 48px;
   color: #003E7C;
 }
-
 .personal-section .custom-personal-card .card-contant {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
 }
-
 .personal-section .custom-personal-card .card-data {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .personal-section .custom-personal-card .card-data .card-contant-data {
   text-align: start;
 }
-
 .personal-section .custom-personal-card .card-data .card-contant-data .poor {
   color: #d6514f;
 }
-
 .personal-section .custom-personal-card .card-data .card-contant-data .heigh {
   color: #00993d;
 }
-
 .personal-section .custom-personal-card .card-data .card-contant-data .small-text {
   font-size: 12px;
   margin: 0;
 }
-
 .personal-section .custom-personal-card .btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .personal-section .custom-personal-card .btns .custom-btn {
   background-color: #edd58a;
   font-size: 9px;
   margin-right: 4px;
 }
-
 .personal-section .custom-personal-card .progress-bar-contant .text h6 {
   margin: 0;
   font-size: 38px;
 }
-
 .personal-section .custom-personal-card .progress-bar-contant .text span {
   color: #edd58a;
   font-size: 40px;
 }
-
 .personal-section .custom-personal-card .progress-bar-contant .progress {
   height: 0.4rem !important;
 }
-
 .personal-section .custom-personal-card .progress-bar-contant .progress .progress-bar {
   background-color: #edd58a !important;
 }
-
 .personal-section .custom-personal-card .image {
   height: 160px !important;
 }
-
 @media (max-width: 767.98px) {
   .personal-section .container-fluid {
     padding: 20px !important;
@@ -264,25 +213,15 @@ p {
     display: block !important;
   }
   .personal-section .card-data {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .personal-section .card-data .card-contant-data {
     text-align: center !important;
   }
   .personal-section .btns {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
   }
   .personal-section .btns .custom-btn {
     margin-bottom: 5px;
@@ -306,26 +245,21 @@ p {
   position: relative;
   padding-bottom: 50px;
 }
-
 .quotation-section .container-fluid {
   padding: 100px !important;
 }
-
 .quotation-section .quotation-wrapper {
   background-color: #F0F5FB;
 }
-
 .quotation-section .quotation-wrapper p {
   color: #232426;
   font-size: 25px;
 }
-
 .quotation-section .quotation-wrapper h6 {
   font-weight: bold;
   line-height: 38px;
   font-size: 26px;
 }
-
 .quotation-section .dr-image {
   width: 500px;
   position: absolute;
@@ -333,7 +267,6 @@ p {
   z-index: 11;
   bottom: -20px;
 }
-
 @media (max-width: 767.98px) {
   .quotation-section .dr-image {
     top: 20px;
@@ -355,7 +288,6 @@ p {
     padding: 0 !important;
   }
 }
-
 @media (max-width: 767.98px) {
   .quotation-section {
     margin-bottom: -100px;
@@ -370,23 +302,15 @@ p {
   background-position: center;
   height: 519px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
 }
-
 .experience-section .experience-title {
   color: #fff;
   font-weight: 700;
   font-size: 40px;
 }
-
 .experience-section .custom-main-btn {
   background-color: #003E7C;
   color: #fff;
@@ -398,20 +322,13 @@ p {
 .footer {
   background-color: #232426;
 }
-
 .footer .conditions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .footer .small-text {
   font-size: 12px;
 }
-
 .footer p {
   color: #fff;
   margin: 0;
@@ -422,26 +339,26 @@ p {
   .inverted {
     position: relative !important;
   }
+
   .results-section {
     text-align: center;
   }
+
   .feature-section {
     margin-bottom: 70px !important;
   }
+
   .quotation-section {
     background-color: #F0F5FB !important;
   }
   .quotation-section .container-fluid {
     padding: 14px !important;
   }
+
   .footer .conditions {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .footer p {
     margin-bottom: 20px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
