@@ -34,10 +34,10 @@
     <!-- SECTION 1 -->
     <section class="results-section">
         <div class="container-fluid p-5">
-            <div class="row gy-4 gx-5">
+            <div class="row gy-4">
                 <div class="col-xs-12 col-sm-12 col-md-5">
                     <div class="card p-3">
-                        <div class="card-body">
+                        <div class="card-body p-4">
                             <h4 class="card-title fw-bold">Sexual health score</h4>
                             <h5 class="card-score fw-normal pt-2 pb-2"><span>40</span>/100</h5>
                             <div class="d-flex">
@@ -52,9 +52,7 @@
                         <div class="card-body">
                             <h4 class="card-title fw-bold">You have a <span>63%</span> risk of erectile dysfunction (ED)
                             </h4>
-                            <div class="progress-img">
-                                <img src="./assets//images/progressbar.svg" alt="" class="w-100 pt-2 pb-2 h-100">
-                            </div>
+                            <img src="./assets//images/progressbar.svg" alt="" class="w-100 pt-2 pb-2 h-100">
                             <div class="d-flex">
                                 <img src="./assets//images/info.svg" alt="" height="24" class="me-2 ">
                                 <p class="card-text">How these results are calculated</p>
@@ -65,7 +63,9 @@
             </div>
             <div class="row p-5 g-5">
                 <div class="col-xs-12 col-sm-12 col-md-8">
-                    <h2 class="results-title">Based on your quiz results, you are a:</h2>
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+                        <h2 class="results-title">Based on your quiz results, you are a:</h2>
+                    </div>
                     <div class="results-btns-wrapper pt-5 pb-5">
                         <button type="button" class="custom-btn btn btn-lg poor mb-4">Poor</button>
                         <button type="button" class="custom-btn btn btn-lg good mb-4">Good</button>
@@ -84,7 +84,7 @@
 
     <!-- SECTION 2 -->
     <section class="personal-section">
-        <div class="container-fluid p-5">
+        <div class="container-fluid">
             <div class="row gy-4 gx-5 pb-5">
                 <div class="col-12">
                     <h2 class="text-center feature-title">Your personal summary </h2>
@@ -189,7 +189,7 @@
                                 <img src="./assets//images/maintenance.svg" class="img-fluid image" alt="...">
                                 <div class="card-contant-data ps-4">
                                     <h5 class="card-title pt-4 pb-1 mb-0">Maintenance </h5>
-                                    <p class="card-text poor">Poor</p>
+                                    <p class="card-text poor m-0">Poor</p>
                                     <p class="card-small-text small-text">You have significant room for improvement </p>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@
                                 <img src="./assets//images/potential.svg" class="img-fluid image" alt="...">
                                 <div class="card-contant-data ps-4">
                                     <h5 class="card-title pt-4 pb-1 mb-0">Potential </h5>
-                                    <p class="card-text heigh">Very High</p>
+                                    <p class="card-text heigh m-0">Very High</p>
                                     <p class="card-small-text small-text">You are an excellent candidate for improvement
                                     </p>
                                 </div>
@@ -238,23 +238,24 @@
 
     <!-- SECTION 4 -->
     <section class="quotation-section">
-        <div class="container p-5 pt-0">
+        <div class="container-fluid pt-0">
             <div class="row gy-3 gx-5 pb-5">
                 <img src="./assets//images/dr.png" class="dr-image" alt="...">
                 <div class="col-xs-12 col-sm-12 col-md-10">
-                    <div class="quotation-wrapper">
+                    <div class="quotation-wrapper ">
                         <div class="row gy-3 p-5">
                             <div class="col-xs-12 col-sm-12 col-md-7">
-                                <p>Every man values how they perform in the bedroom, but until we brought our product to
+                                <p class="ps-3 pe-3">Every man values how they perform in the bedroom, but until we
+                                    brought our product to
                                     market, guys have always waited until they had a problem. Then, it usually results
                                     in an uncomfortable meeting with a doctor, who starts by offering a little pill. The
                                     problem is, those pills don’t fix anything! They are only band-aid solutions, often
                                     with heavy side effects, or don’t work at all for some guys.</p>
-                                <p>
+                                <p class="ps-3 pe-3 mt-4">
                                     To solve this, we introduced the only product on the market that can prevent guys
                                     from even needing pills, and treat the underlying cause of most issues without
                                     awkward doctor visits or medication.</p>
-                                <h6>Dr. Paul Thompson <br /> Urologist and Surgeon</h6>
+                                <h6 class="ps-3 pe-3 mt-4">Dr. Paul Thompson <br /> Urologist and Surgeon</h6>
                             </div>
                         </div>
                     </div>
@@ -281,18 +282,19 @@
     <footer class="footer text-center">
         <div class="container-fluid">
             <div class="row pb-2 pt-2">
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 ">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                     <p>© 2021 Launch Medical. All Rights Reserved.</p>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                    <p>Disclaimer: Results will vary from person to person. Our service is not intended to diagnose,
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7">
+                    <p class="small-text">Disclaimer: Results will vary from person to person. Our service is not
+                        intended to diagnose,
                         treat, cure, or prevent any disease and does not consistute medical advice </p>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-1  ">
-                    <p>Terms of Service </p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-1">
-                    <p>Privacy Policy </p>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2  ">
+                    <div class="conditions">
+                        <p>Terms of Service </p>
+                        <p>Privacy Policy </p>
+                    </div>
                 </div>
             </div>
         </div>

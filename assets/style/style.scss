@@ -55,7 +55,7 @@
 // SECTION 1 STYLES
 .results-section {
   .card-score {
-    font-size: 50px;
+    font-size: 66px;
   }
   span {
     color: #edd58a;
@@ -80,17 +80,16 @@
   .poor {
     background-color: #ed968a;
     color: #d34747;
+    opacity: 0.6;
   }
   .good {
     background-color: #edd58a;
     color: #d3ae47;
+    opacity: 0.6;
   }
   .great {
     background-color: #00993d;
     color: #fff;
-  }
-  .progress-img {
-    height: 74px;
   }
   .custom-main-btn {
     background-color: $secondary-color;
@@ -101,6 +100,9 @@
   }
 
   @media (max-width: 767.98px) {
+    .p-5 {
+      padding: 1.2rem !important;
+    }
     .sm-img {
       display: none;
     }
@@ -110,12 +112,22 @@
     .custom-main-btn {
       display: none;
     }
+    .results-sub-title {
+      font-size: 18px !important;
+      line-height: 28px;
+    }
+    .card-score {
+      font-size: 56px;
+    }
   }
 }
 
 // SECTION 2 STYLES
 .personal-section {
   background-color: $bg-primary-color;
+  .container-fluid {
+    padding: 100px !important;
+  }
   .feature-title {
     font-size: 36px;
     font-style: normal;
@@ -190,6 +202,9 @@
     }
   }
   @media (max-width: 767.98px) {
+    .container-fluid {
+      padding: 20px !important;
+    }
     .card-contant {
       display: block !important;
     }
@@ -217,19 +232,30 @@
   }
 }
 
+// SECTION 3 STYLES
+.feature-section {
+  h2 {
+    font-size: 40px;
+  }
+}
+
 // SECTION 4 STYLES
 .quotation-section {
   position: relative;
   padding-bottom: 50px;
-
+  .container-fluid {
+    padding: 100px !important;
+  }
   .quotation-wrapper {
     background-color: $bg-primary-color;
     p {
       color: #232426;
+      font-size: 25px;
     }
     h6 {
       font-weight: bold;
-      line-height: 25px;
+      line-height: 38px;
+      font-size: 26px;
     }
   }
   .dr-image {
@@ -254,7 +280,7 @@
       .p-5 {
         padding: 1rem !important;
       }
-      padding-top: 8rem;
+      padding-top: 10rem;
       .row {
         padding: 0 !important;
       }
@@ -280,6 +306,7 @@
   .experience-title {
     color: #fff;
     font-weight: 700;
+    font-size: 40px;
   }
   .custom-main-btn {
     background-color: $secondary-color;
@@ -292,9 +319,17 @@
 // FOOTER
 .footer {
   background-color: #232426;
+  .conditions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .small-text {
+    font-size: 12px;
+  }
   p {
     color: #fff;
     margin: 0;
+    font-size: 18px;
   }
 }
 
@@ -302,10 +337,24 @@
   .inverted {
     position: relative !important;
   }
+  .results-section {
+    text-align: center;
+  }
   .feature-section {
     margin-bottom: 70px !important;
   }
   .quotation-section {
     background-color: $bg-primary-color !important;
+    .container-fluid {
+      padding: 14px !important;
+    }
+  }
+  .footer {
+    .conditions {
+      flex-direction: column;
+    }
+    p {
+      margin-bottom: 20px;
+    }
   }
 }
