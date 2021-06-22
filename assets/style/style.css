@@ -277,6 +277,15 @@ p {
   z-index: 11;
   bottom: -20px;
 }
+@media (min-width: 991px) {
+  .quotation-section .dr-image {
+    width: 730px;
+    position: absolute;
+    right: 36px;
+    z-index: 11;
+    bottom: -80px;
+  }
+}
 @media (max-width: 767.98px) {
   .quotation-section .dr-image {
     top: 20px;
